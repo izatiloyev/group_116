@@ -123,7 +123,6 @@ window.onkeydown = (e) => {
     }
     if(e.keyCode === 38) {
         let last = snake[snake.length - 1]
-
         boxes[+last.id - 10].classList.add('active')
         snake[0].classList.remove('active')
     }
